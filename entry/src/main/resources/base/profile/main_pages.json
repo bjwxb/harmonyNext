@@ -1,0 +1,33 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/boot/SplashPage",
+    "pages/main/MainPage",
+    "pages/home/ui/TextDemo",
+    "pages/home/ui/ButtonDemo",
+    "pages/home/ui/ImageDemo",
+    "pages/home/ui/TextInputDemo",
+    "pages/home/ui/ProgressDemo",
+    "pages/home/ui/PickerDemo",
+    "pages/home/ui/QRCodeDemo",
+    "pages/home/ui/ToggleDemo",
+    "pages/home/ui/SlideDemo",
+    "pages/home/ui/RatingDemo",
+    "pages/home/ui/SideBarDemo",
+    "pages/home/ui/BadgeDemo",
+    "pages/home/ui/ScrollDemo",
+    "pages/home/ui/ListDemo",
+    "pages/home/ui/GridDemo",
+    "pages/home/ui/SwiperDemo",
+    "pages/home/ui/RefreshDemo",
+    "pages/home/ui/VideoDemo",
+    "pages/home/ui/WebViewDemo",
+    "pages/home/ui/PatternLockDemo",
+    "pages/home/ui/NavigationDemo",
+    "pages/home/ui/RelativeDemo",
+    "pages/lovecar/ui/NotificationDemo",
+    "pages/lovecar/ui/StorageDemo",
+    "pages/lovecar/ui/EventDemo",
+    "pages/lovecar/ui/LazyForEachDemo"
+  ]
+}

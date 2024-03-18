@@ -1,0 +1,12 @@
+{
+  "app": {
+    "bundleName": "com.wxb.melon",
+    "vendor": "melon hah",
+    "versionCode": 1000000,
+    "versionName": "1.1.0",
+    "icon": "$media:app_icon", // 应用的图标
+    "label": "$string:app_name", //应用的名称
+    "debug":true,// true-可以调试， false-不可调试， 默认为false
+
+  }
+}

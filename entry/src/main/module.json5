@@ -1,0 +1,53 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "MainAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.PUBLISH_AGENT_REMINDER" //后台代理提醒权限
+      }
+    ],
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "MainAbility",//该标签标识当前ability的逻辑名，该名称在整个应用要唯一，标签值采用字符串表示（最大长度127个字节）
+        "srcEntry": "./ets/entryability/MainAbility.ets",//ability的入口代码路径。
+        "description": "$string:MainAbility_label",
+        "icon": "$media:icon",
+        "label": "$string:MainAbility_label",
+//        "launchType": "singleton",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",//启动页面的背景色。
+        "exported": true, //是否可以被其他应用程序调用，true-可以，false-不可以
+        "metadata": [
+          {
+            "name": "hwc-theme",
+            "value": "ActiveAndroid:style/Theme.Emui.Light.NoTitleBar"
+          }
+        ],
+        "skills": [//标识能够接收的意图的action值的集合，取值通常为系统预定义的action值，也允许自定义
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
